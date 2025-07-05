@@ -1,0 +1,15 @@
+###
+
+GET http://localhost:4004/odata/v4/catalog/contatos
+
+###
+
+POST http://localhost:4004/odata/v4/catalog/contatos
+Authorization: Basic admin:123
+Content-Type: application/json
+
+{
+    "nome": "Claudeni Conceição Dias",
+    "fone": "5513991664205",
+    "dataNasc": "1983-11-07"
+}

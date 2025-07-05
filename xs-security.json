@@ -1,0 +1,31 @@
+{
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.TelefonesViewer",
+      "description": "TelefonesViewer"
+    },
+    {
+      "name": "$XSAPPNAME.TelefonesManager",
+      "description": "TelefonesManager"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "TelefonesViewer",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.TelefonesViewer"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "TelefonesManager",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.TelefonesManager"
+      ],
+      "attribute-references": []
+    }
+  ]
+}
